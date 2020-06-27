@@ -1,0 +1,6 @@
+element = input('Enter the element to be deleted: ')
+tuple_values = ('p', 'y', 't', 'h', 'o', 'n') 
+new_list=list(tuple_values)
+new_list.remove(element)
+tuple_values=tuple(new_list)
+print(tuple_values)
